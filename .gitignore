@@ -1,5 +1,8 @@
 */log.txt
 */traceback.txt
 .DS_Store
+*.rbyb
+*.rbyc
+shrinemystery/game/saves/persistent
 shrinemystery/game/cache/bytecode.rpyb
 shrinemystery/game/saves/persistent
