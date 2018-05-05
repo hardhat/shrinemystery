@@ -561,6 +561,158 @@ translate None strings:
     old "Self-voicing enabled. Press 'v' to disable."
     new "Self-voicing enabled. Press 'v' to disable."
 
+    # _compat\gamemenu.rpym:198
+    old "Empty Slot."
+    new "Empty Slot."
+
+    # _compat\gamemenu.rpym:355
+    old "Previous"
+    new "Previous"
+
+    # _compat\gamemenu.rpym:362
+    old "Next"
+    new "Next"
+
+    # _compat\preferences.rpym:428
+    old "Joystick Mapping"
+    new "Joystick Mapping"
+
+    # _developer\developer.rpym:38
+    old "Developer Menu"
+    new "Developer Menu"
+
+    # _developer\developer.rpym:43
+    old "Interactive Director (D)"
+    new "Interactive Director (D)"
+
+    # _developer\developer.rpym:45
+    old "Reload Game (Shift+R)"
+    new "Reload Game (Shift+R)"
+
+    # _developer\developer.rpym:47
+    old "Console (Shift+O)"
+    new "Console (Shift+O)"
+
+    # _developer\developer.rpym:49
+    old "Variable Viewer"
+    new "Variable Viewer"
+
+    # _developer\developer.rpym:51
+    old "Image Location Picker"
+    new "Image Location Picker"
+
+    # _developer\developer.rpym:53
+    old "Filename List"
+    new "Filename List"
+
+    # _developer\developer.rpym:57
+    old "Show Image Load Log (F4)"
+    new "Show Image Load Log (F4)"
+
+    # _developer\developer.rpym:60
+    old "Hide Image Load Log (F4)"
+    new "Hide Image Load Log (F4)"
+
+    # _developer\developer.rpym:66
+    old "Return"
+    new "Return"
+
+    # _developer\developer.rpym:95
+    old "Nothing to inspect."
+    new "Nothing to inspect."
+
+    # _developer\developer.rpym:223
+    old "Return to the developer menu"
+    new "Return to the developer menu"
+
+    # _developer\developer.rpym:383
+    old "Rectangle: %r"
+    new "Rectangle: %r"
+
+    # _developer\developer.rpym:388
+    old "Mouse position: %r"
+    new "Mouse position: %r"
+
+    # _developer\developer.rpym:393
+    old "Right-click or escape to quit."
+    new "Right-click or escape to quit."
+
+    # _developer\developer.rpym:425
+    old "Rectangle copied to clipboard."
+    new "Rectangle copied to clipboard."
+
+    # _developer\developer.rpym:428
+    old "Position copied to clipboard."
+    new "Position copied to clipboard."
+
+    # _developer\developer.rpym:447
+    old "Type to filter: "
+    new "Type to filter: "
+
+    # _developer\developer.rpym:575
+    old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
+    new "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
+
+    # _developer\developer.rpym:579
+    old "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
+    new "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
+
+    # _developer\developer.rpym:589
+    old "✔ "
+    new "✔ "
+
+    # _developer\developer.rpym:592
+    old "✘ "
+    new "✘ "
+
+    # _developer\developer.rpym:597
+    old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
+    new "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
+
+    # _developer\inspector.rpym:38
+    old "Displayable Inspector"
+    new "Displayable Inspector"
+
+    # _developer\inspector.rpym:61
+    old "Size"
+    new "Size"
+
+    # _developer\inspector.rpym:65
+    old "Style"
+    new "Style"
+
+    # _developer\inspector.rpym:71
+    old "Location"
+    new "Location"
+
+    # _developer\inspector.rpym:122
+    old "Inspecting Styles of [displayable_name!q]"
+    new "Inspecting Styles of [displayable_name!q]"
+
+    # _developer\inspector.rpym:139
+    old "displayable:"
+    new "displayable:"
+
+    # _developer\inspector.rpym:145
+    old "        (no properties affect the displayable)"
+    new "        (no properties affect the displayable)"
+
+    # _developer\inspector.rpym:147
+    old "        (default properties omitted)"
+    new "        (default properties omitted)"
+
+    # _developer\inspector.rpym:185
+    old "<repr() failed>"
+    new "<repr() failed>"
+
+    # _layout\classic_load_save.rpym:170
+    old "a"
+    new "a"
+
+    # _layout\classic_load_save.rpym:179
+    old "q"
+    new "q"
+
     # 00iap.rpy:217
     old "Contacting App Store\nPlease Wait..."
     new "Contacting App Store\nPlease Wait..."
@@ -749,10 +901,6 @@ translate None strings:
     old "Quit"
     new "Quit"
 
-    # 00gltest.rpy:191
-    old "Return"
-    new "Return"
-
     # 00gltest.rpy:213
     old "Performance Warning"
     new "Performance Warning"
@@ -908,130 +1056,6 @@ translate None strings:
     # _errorhandling.rpym:667
     old "Copies the errors.txt file to the clipboard."
     new "Copies the errors.txt file to the clipboard."
-
-    # _developer/developer.rpym:38
-    old "Developer Menu"
-    new "Developer Menu"
-
-    # _developer/developer.rpym:43
-    old "Interactive Director (D)"
-    new "Interactive Director (D)"
-
-    # _developer/developer.rpym:45
-    old "Reload Game (Shift+R)"
-    new "Reload Game (Shift+R)"
-
-    # _developer/developer.rpym:47
-    old "Console (Shift+O)"
-    new "Console (Shift+O)"
-
-    # _developer/developer.rpym:49
-    old "Variable Viewer"
-    new "Variable Viewer"
-
-    # _developer/developer.rpym:51
-    old "Image Location Picker"
-    new "Image Location Picker"
-
-    # _developer/developer.rpym:53
-    old "Filename List"
-    new "Filename List"
-
-    # _developer/developer.rpym:57
-    old "Show Image Load Log (F4)"
-    new "Show Image Load Log (F4)"
-
-    # _developer/developer.rpym:60
-    old "Hide Image Load Log (F4)"
-    new "Hide Image Load Log (F4)"
-
-    # _developer/developer.rpym:95
-    old "Nothing to inspect."
-    new "Nothing to inspect."
-
-    # _developer/developer.rpym:223
-    old "Return to the developer menu"
-    new "Return to the developer menu"
-
-    # _developer/developer.rpym:383
-    old "Rectangle: %r"
-    new "Rectangle: %r"
-
-    # _developer/developer.rpym:388
-    old "Mouse position: %r"
-    new "Mouse position: %r"
-
-    # _developer/developer.rpym:393
-    old "Right-click or escape to quit."
-    new "Right-click or escape to quit."
-
-    # _developer/developer.rpym:425
-    old "Rectangle copied to clipboard."
-    new "Rectangle copied to clipboard."
-
-    # _developer/developer.rpym:428
-    old "Position copied to clipboard."
-    new "Position copied to clipboard."
-
-    # _developer/developer.rpym:447
-    old "Type to filter: "
-    new "Type to filter: "
-
-    # _developer/developer.rpym:575
-    old "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
-    new "Textures: [tex_count] ([tex_size_mb:.1f] MB)"
-
-    # _developer/developer.rpym:579
-    old "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
-    new "Image cache: [cache_pct:.1f]% ([cache_size_mb:.1f] MB)"
-
-    # _developer/developer.rpym:589
-    old "✔ "
-    new "✔ "
-
-    # _developer/developer.rpym:592
-    old "✘ "
-    new "✘ "
-
-    # _developer/developer.rpym:597
-    old "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
-    new "\n{color=#cfc}✔ predicted image (good){/color}\n{color=#fcc}✘ unpredicted image (bad){/color}\n{color=#fff}Drag to move.{/color}"
-
-    # _developer/inspector.rpym:38
-    old "Displayable Inspector"
-    new "Displayable Inspector"
-
-    # _developer/inspector.rpym:61
-    old "Size"
-    new "Size"
-
-    # _developer/inspector.rpym:65
-    old "Style"
-    new "Style"
-
-    # _developer/inspector.rpym:71
-    old "Location"
-    new "Location"
-
-    # _developer/inspector.rpym:122
-    old "Inspecting Styles of [displayable_name!q]"
-    new "Inspecting Styles of [displayable_name!q]"
-
-    # _developer/inspector.rpym:139
-    old "displayable:"
-    new "displayable:"
-
-    # _developer/inspector.rpym:145
-    old "        (no properties affect the displayable)"
-    new "        (no properties affect the displayable)"
-
-    # _developer/inspector.rpym:147
-    old "        (default properties omitted)"
-    new "        (default properties omitted)"
-
-    # _developer/inspector.rpym:185
-    old "<repr() failed>"
-    new "<repr() failed>"
 
     # 00console.rpy:255
     old "Press <esc> to exit console. Type help for help.\n"
