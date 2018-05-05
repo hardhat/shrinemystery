@@ -12,7 +12,7 @@ define g = Character("Bill")
 # The game starts here.
 
 label start:
-scene bg start
+scene bg pond
 show Ducktective
 "I was sitting in my office when the call came in."
 "The crime was interesting; a priest was stabbed using his own sacred artifact"
@@ -24,12 +24,16 @@ show Ducktective
     # images directory to show it.
 
 scene bg pond
-d "Let me see some ID from all of you"
-scene bg id
+"Let me see some ID from all of you"
+# scene bg id
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
-show tour_guide happy
+scene bg bus
+show zealot happy
+"Who might you be?"
+show zealot angry
+s "I am the candy man"
 
 #ends the game
 return
