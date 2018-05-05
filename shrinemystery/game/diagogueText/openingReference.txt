@@ -6,46 +6,63 @@ Duck:   I was sitting in my office when the call came in. A priest impaled by hi
 TOUR GUIDE:
  - "Have you noticed anyhting odd about the area before the murder took place?"
 
-	Not much . . . I DID notice the sacred pole missing from it's usual spot, but 	I'm sure you know where it went.
+Not much . . . I DID notice the sacred pole missing from it's usual spot, but 	I'm sure you know where it went.
 
  - "What relations do you have with the Victim?"
 
-	I'm just a tour guide here . . . Ca you not see my Badge?
+I'm just a tour guide here . . . Ca you not see my Badge?
 
 - "Is If it wasn't you, then who do you think it woud be?"
 
-	Have you seen some of the people here? I mean . . . Just look at (Shady)! All 		day he's been going on and on about how "The service is terrible" and how "He 		thinks the water is *Too Cold*". I even saw him yelling at the priest last 		night, and we all know what happened after that . . . All I'm saying is I'd 		keep an eye on him if I were you. (Unlocks dilaogue for John Shady)
+Have you seen some of the people here? I mean . . . Just look at (Shady)! All 		day he's been going on and on about how "The service is terrible" and how "He 		thinks the water is *Too Cold*". I even saw him yelling at the priest last 		night, and we all know what happened after that . . . All I'm saying is I'd 		keep an eye on him if I were you. (Unlocks dilaogue for John Shady)
 
 JOHN SHADY:
  - (Unlocked after Tour Guide) Why were you arguing with the Victim Yesterday?
 
-	He is not at ALL like an actual priest! I mean look at him! Not even wearing 		the traditional robes of Preisthood, It's absurd! Now, I wouldn't go as far to 		. . . *kill* him, but I had to say something about the way he presents himself. 	I mean, yellow, of all colours.
+He is not at ALL like an actual priest! I mean look at him! Not even wearing 		the traditional robes of Preisthood, It's absurd! Now, I wouldn't go as far to 		. . . *kill* him, but I had to say something about the way he presents himself. 	I mean, yellow, of all colours.
 
  - "Have you noticed anyhting odd about the area before the murder took place?"
 
-	Other than the TERRIBLE service , not really. 
+Other than the TERRIBLE service , not really. 
 
  - "What relations do you have with the Victim?"
 
-	Do I look like I know the Priest? Come on, did you think I worked here or 		something?
+Do I look like I know the Priest? Come on, did you think I worked here or 		something?
 
  - "Is If it wasn't you, then who do you think it woud be?"
 	
-	I think I saw the Nun leave the monistary before . . . well  . . . you know 		what happened. Id ask her more about where she was. (Unlocks dialogue for Nun)
+I think I saw the Nun leave the monistary before . . . well  . . . you know 		what happened. Id ask her more about where she was. (Unlocks dialogue for Nun)
 
 NUN:
  - (Unlocked after John Shady) Where were you on the night of the event?
 
-	I'm seeing the mechanic from the city.
+I'm seeing the mechanic from the city.
 
  - "What relations do you have with the Victim?"
 
-	I only really knew him on a buisness level. He seemed nice, though.
+I only really knew him on a buisness level. He seemed nice, though.
 
 - "Have you noticed anyhting odd about the area before the murder took place?"
 
-	I saw some DNA matches on the Priests table . . . Says he has a daughter. Who 		knew?
+I saw some DNA matches on the Priests table . . . Says he has a daughter. Who 		knew?
 
  - "Is If it wasn't you, then who do you think it would be?"
 
-	The groundskeeper has been arguing with Flirteen for YEARS. If anybody, it'd be 	him. (Unlockes dialogue with Groundskeeper)
+The groundskeeper has been arguing with Flirteen for YEARS. If anybody, it'd be 	him. (Unlockes dialogue with Groundskeeper)
+
+GROUNDSKEEPER:
+
+ - (Unlocked after priest) Are you on good terms with the victim?
+
+You mean my brother? he's been running this place ever since it opened, and not once has he considered advanceing the company ino other venues. Imagine it . . . A fully finished, five-star resort built into the gorgeous landscape this area 	was gifted with! If only he would'e reconsidered before . . .
+
+- " - "What relations do you have with the Victim?"
+
+I'm his brother, along with the co-owner of this establishment. Together we make sure this place stays running.
+
+- "Have you noticed anyhting odd about the area before the murder took place?"
+
+Now that you mention t . . .
+
+ - "Is If it wasn't you, then who do you think it would be?"
+	
