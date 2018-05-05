@@ -12,3 +12,7 @@ shrinemystery/game/saves/persistent
 shrinemystery/game/cache/screens.rpyb
 shrinemystery/game/saves/navigation.json
 shrinemystery/game/script.rpyc
+*.rpyb
+shrinemystery/game/saves/navigation.json
+shrinemystery/game/saves/persistent
+*.rpyc
