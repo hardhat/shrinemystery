@@ -12,7 +12,7 @@ define g = Character("Bill")
 # The game starts here.
 
 label start:
-scene bg pond
+scene bg start
 show Ducktective
 "I was sitting in my office when the call came in."
 "The crime was interesting; a priest was stabbed using his own sacred artifact"
@@ -24,8 +24,13 @@ show Ducktective
     # images directory to show it.
 
 scene bg pond
-"Let me see some ID from all of you"
-# scene bg id
+d "Let me see some ID from all of you"
+ scene bg id
+"(Press the mousewheel button to hide the text box)"
+scene bg pond
+d "Alright, you can go free, but just let me investigate until I talk to you."
+
+
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
