@@ -13,7 +13,7 @@ define g = Character("Bill")
 
 label start:
 scene bg start
-show Ducktective
+show ducktective
 "I was sitting in my office when the call came in."
 "The crime was interesting; a priest was stabbed using his own sacred artifact"
 "It happened while a tour group was staying by a shrine"
