@@ -1,17 +1,19 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
-
-define e = Character("Eileen")
-define t = Character("Tour Guide")
+define d = Character("Ducktective")
+# Player Character
+define t = Character("Marina")
+# First encounter name is tourguide
 define s = Character("John Shady")
-define n = Character("Nun")
-define g = Character("Groundskeeper")
-
+# Disgruntled Zealot
+define n = Character("Sister Mary")
+# Nun
+define g = Character("Bill")
+#
+# The Priest's Name is Father Joseph Flirteen
 # The game starts here.
 
 label start:
+scene bg start
+show Ducktective
 "I was sitting in my office when the call came in."
 "The crime was interesting; a priest was stabbed using his own sacred artifact"
 "It happened while a tour group was staying by a shrine"
@@ -21,20 +23,13 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-scene bg room
-
+scene bg pond
+d "Let me see some ID from all of you"
+scene bg id
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
+show tour_guide happy
 
-show eileen happy
-
-    # These display lines of dialogue.
-
-e "You've created a new Ren'Py game."
-
-e "Once you add a story, pictures, and music, you can release it to the world!"
-
-    # This ends the game.
-
+#ends the game
 return
