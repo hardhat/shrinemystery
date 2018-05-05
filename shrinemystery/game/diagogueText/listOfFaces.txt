@@ -1,0 +1,12 @@
+For Every Character (but priest) We Need:
+neutral
+neutralTalking
+annoyed
+angry
+flustered/distressed
+
+EXCLUSIVE:
+
+Tour Guide needs a crazy look
+
+Priest needs a dead look (His only look)
