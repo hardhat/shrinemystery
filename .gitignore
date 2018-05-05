@@ -1,3 +1,7 @@
 */log.txt
 */traceback.txt
 .DS_Store
+*.rbyb
+*.rbyc
+shrinemystery/game/saves/persistent
+
