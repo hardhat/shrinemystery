@@ -23,6 +23,7 @@ show Ducktective
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
+<<<<<<< HEAD
 scene bg pond
 d "Let me see some ID from all of you"
 scene bg id
@@ -39,6 +40,32 @@ show zealot happy at right
 "Who might you be?"
 show zealot angry at right
 s "I am the candy man"
+=======
+label pond:
+    scene bg pond
+    "Let me see some ID from all of you"
+    # scene bg id
+    # This shows a character sprite. A placeholder is used, but you can
+    # replace it by adding a file named "eileen happy.png" to the images
+    # directory.
+menu:
+    "Visit bus":
+        jump bus
+    "Visit workshop":
+        jump workshop
+    "Visit lodge":
+        jump lodge
+    "Visit shrine":
+        jump shrine
+    "Solve crime":
+        jump death
+
+label death:
+    scene bg pond
+    show marina bloody
+    t "Time to die."
+    t "Because we know that wining is for losers"
+>>>>>>> Added modules for each location, for fewer conflicts.
 
 #ends the game
 return
