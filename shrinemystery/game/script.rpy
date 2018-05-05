@@ -25,7 +25,7 @@ show Ducktective
 
 scene bg pond
 d "Let me see some ID from all of you"
- scene bg id
+scene bg id
 "(Press the mousewheel button to hide the text box)"
 scene bg pond
 d "Alright, you can go free, but just let me investigate until I talk to you."
@@ -35,9 +35,9 @@ d "Alright, you can go free, but just let me investigate until I talk to you."
     # replace it by adding a file named "eileen happy.png" to the images
     # directory.
 scene bg bus
-show zealot happy
+show zealot happy at right
 "Who might you be?"
-show zealot angry
+show zealot angry at right
 s "I am the candy man"
 
 #ends the game
