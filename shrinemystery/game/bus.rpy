@@ -11,11 +11,14 @@ label bus:
         jump bus_loop
 
     label bus_loop:
+        show zealot neutral
         menu:
             "What relations do you have with the Priest?":
+                show zealot upset
                 s "Nothing. Sadly he claimed to follow the Goat, but is truly a shame."
                 jump bus_loop
             "Did you observe anything odd yesterday?":
+                show zealot angry
                 s "TERRIBLE service, horrible water, a shameful priest, and, well, I did notice the nun leaving the monastery leave just after dinner. You should ask her where she went."
                 $ nun_fight = True # (Unlocks dialogue for Nun)
                 jump bus_loop
@@ -24,16 +27,20 @@ label bus:
 
 
     label bus_loop2:
+        show zealot neutral
         menu:
             # - (Unlocked after Tour Guide)
             "What relations do you have with the Priest?":
+                show zealot upset
                 s "Nothing. Sadly he claimed to follow the Goat, but is truly a shame."
                 jump bus_loop2
             "What were you arguing with the Priest about?":
+                show zealot angry
                 s "He is not a devout Goat Priest! He is an imposter!  Not wearing traditional robes made from goat wool cloth! The Goat Pole on the shrine was upside down which is almost justification for his death!"
                 s "I spoke to him last night asking for his repentance, but he pushed me away. Now, I did not kill him, but I am shedding no tears for the death of such a shame to our god."
                 jump bus_loop2
             "Did you observe anything odd yesterday?":
+                show zealot angry
                 s "TERRIBLE service, horrible water, a shameful priest, and, well, I did notice the nun leaving the monastery leave just after dinner. You should ask her where she went."
                 $ nun_fight = true # (Unlocks dialogue for Nun)
                 jump bus_loop2
