@@ -84,7 +84,13 @@ menu:
 label accusezealot:
     scene bg pond
     show zealot angry
-    s "Wrong."
+    d "John did it! He was furious at the priest for being an imposter"
+    t "I knew it!"
+    s "It was not me! I may have hated the man, but not enough to kill him!"
+    d "you even told me his death was justified and nobody can say where you were last night!"
+    s "I was on the bus! It’s the truth!"
+    d "Well, my job here is done, take him away!"
+    "YOU LOSE. JOHN, THE GUY NOBODY LIKED WAS SENT TO PRISON FOR A FLASE MURDER, THOUGH NOBODY REALLY MINDS. HE WAS A JERK."
     jump done
 
 label accusebrother:
