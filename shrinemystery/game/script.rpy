@@ -23,11 +23,11 @@ define tourguide_fight = False
 label start:
 scene bg start
 show ducktective
-"I was sitting in my office when the call came in."
-"The crime was interesting; a priest was stabbed using his own sacred artifact"
-"It happened while a tour group was staying by a shrine"
-"The tour guide was stumbling over the phone, giving me the details crime as it unfolded."
-"I arrived at the scene, not knowing that this would be the biggest mystery of my life . . ."
+d "I was sitting in my office when the call came in."
+d "The crime was interesting; a priest was stabbed using his own sacred artifact"
+d "It happened while a tour group was staying by a shrine"
+d "The tour guide was stumbling over the phone, giving me the details crime as it unfolded."
+d "I arrived at the scene, not knowing that this would be the biggest mystery of my life . . ."
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
@@ -89,7 +89,7 @@ label accusezealot:
     scene bg pond
     d "John did it! He was furious at the priest for being an imposter"
     t "I knew it!"
-    show zealot angry at right
+    show zealot angry at topright
     s "It was not me! I may have hated the man, but not enough to kill him!"
     d "you even told me his death was justified and nobody can say where you were last night!"
     s "I was on the bus! It’s the truth!"
@@ -100,7 +100,7 @@ label accusezealot:
 label accusebrother:
     scene bg pond
     d "The Groundskeeper did it! He wanted the dead to the land so he could expand this into a massive tourist complex!"
-    show brother angry at right
+    show brother angry at topright
     g "No you git! It wasn’t me!"
     d "Tell that to the judge! Take him away!"
     "YOU LOSE. HE MAY HAVE DISLIKED HIS BROTHER BUT HE WOULD NEVER KILL HIM. DUE TO HIM LEAVING, THE DUCK POND SHRINE WAS CLOSED AND DUCKS COMPAINED TO DUCTECTIVE FOR YEARS TO COME. THEY BLAME YOU AND DUCKTECTIVE CLOSED DOWN"

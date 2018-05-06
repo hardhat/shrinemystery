@@ -53,15 +53,21 @@ label shrine:
                             $ brother_fight = True
                             jump shrine_loop2
                         "Where were you on the night of the event?":
-                            show nun suprised at topright
+                            show nun surprised at topright
                             n "Oh! I was in town."
+                            show ducktective at left
                             d "Town?"
+                            hide ducktective
                             n "Yes. I was. I wasn’t anywhere near the shrine."
+                            show ducktective at left
                             d "So if I go to the town someone could prove your alibi that you didn’t kill the Priest?"
+                            hide ducktective
                             n "I, well, look. I am in love with this mechanic in the city and we went out for a drive last night."
                             show nun upset
                             n "He picked me up and we went to the arcade and played GOAT simulator"
+                            show ducktective at left
                             d "The Goat Religion prohibits that no? If the Priest found out, you would be sent back to the Basilica."
+                            hide ducktective
                             n "Yes, I would. The Priest knew, but he promised not to tell. If he did, my life would be ruined."
                             jump shrine_loop2
                         "Thanks for the info.":

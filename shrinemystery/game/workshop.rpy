@@ -51,5 +51,5 @@ label workshop:
                         jump workshop2
                     "Thank you for your time":
                         show brother happy at topright
-                        "No need to thank me, You're the one solving the case."
+                        g "No need to thank me, You're the one solving the case."
                         jump pond

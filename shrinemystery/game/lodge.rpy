@@ -14,7 +14,9 @@ label lodge:
                 "What relations do you have with the Priest?":
                     show marina upset at topright
                     t "I'm just a tour guide here . . . Can’t you not see my Badge?"
-                    "No?"
+                    show ducktective at left
+                    d "No?"
+                    hide ducktective
                     t "Oh, well, I left it on my other shirt. It has been a hectic day."
                     jump  lodge2
                 "Do you have any suspects?":
