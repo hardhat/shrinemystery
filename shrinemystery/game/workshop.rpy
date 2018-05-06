@@ -5,17 +5,40 @@ label workshop:
     show brother happy
     g "What brings you to see me detective?"
     label workshop2:
-    menu:
-        "How did you know the priest?":
-            "He’s my brother. Together we run . . . ran this place. I guess I own it now."
-            jump workshop2
-        "Have you noticed anything odd last night with the group":
-            "Now that you mention it, I noticed the tour guide leave just after the Priest left after dinner. I’d ask her if I were you."
-            $ tourguide_fight = True
-            jump workshop2
-        "Who do you think did it?":
-            ""
-            jump workshop2
-        "Thank you for your time":
-            "No need to thank me, You're the one solving the case."
-            jump pond
+        if brother_fight == False:
+            menu:
+                "How did you know the priest?":
+                    g "He’s my brother. Together we run . . . ran this place. I guess I own it now."
+                    jump workshop2
+                "Have you noticed anything odd last night with the group":
+                    g "Now that you mention it, I noticed the tour guide leave just after the Priest left after dinner. I’d ask her if I were you."
+                    $ tourguide_fight = True
+                    jump workshop2
+                "Who do you think did it?":
+                    g "No idea. Could be anyone."
+                    jump workshop2
+                "Thank you for your time":
+                    g "No need to thank me, You're the one solving the case."
+                    jump pond
+        else:
+            label workshop3:
+                menu:
+                    "How did you know the priest?":
+                        g "He’s my brother. Together we run . . . ran this place. I guess I own it now."
+                        jump workshop2
+                    "Have you noticed anything odd last night with the group":
+                        g "Now that you mention it, I noticed the tour guide leave just after the Priest left after dinner. I’d ask her if I were you."
+                        $ tourguide_fight = True
+                        jump workshop2
+                    "Who do you think did it?":
+                        g "No idea. Could be anyone."
+                    "(Secret) What were you arguing with your brother about?":
+                        g "What argument?"
+                        "The Nun said you were arguing two days ago."
+                        g "Look. He and I have butted heads for a while. This place doesn’t make money because he doesn’t expand the lodge and advertise it to tourists."
+                        g "I’ve wanted to expand this into a fully finished, five-star resort built into the gorgeous landscape this area was gifted with!"
+                        g "With him gone I own the deed and can finally make money off this place. "
+                        jump workshop2
+                    "Thank you for your time":
+                        "No need to thank me, You're the one solving the case."
+                        jump pond

@@ -1,28 +1,24 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/lodge.rpy", line 6, in script
-    if m == 1:
-  File "game/lodge.rpy", line 6, in <module>
-    if m == 1:
-NameError: name 'm' is not defined
+  File "game/workshop.rpy", line 8, in script
+    if brother_fight = False:
+SyntaxError: invalid syntax (game/workshop.rpy, line 8)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/lodge.rpy", line 6, in script
-    if m == 1:
+  File "game/workshop.rpy", line 8, in script
+    if brother_fight = False:
   File "C:\Users\dalem\Desktop\renpy-6.99.14.3-sdk\renpy\ast.py", line 1729, in execute
     if renpy.python.py_eval(condition):
-  File "C:\Users\dalem\Desktop\renpy-6.99.14.3-sdk\renpy\python.py", line 1919, in py_eval
-    return py_eval_bytecode(code, globals, locals)
-  File "C:\Users\dalem\Desktop\renpy-6.99.14.3-sdk\renpy\python.py", line 1912, in py_eval_bytecode
-    return eval(bytecode, globals, locals)
-  File "game/lodge.rpy", line 6, in <module>
-    if m == 1:
-NameError: name 'm' is not defined
+  File "C:\Users\dalem\Desktop\renpy-6.99.14.3-sdk\renpy\python.py", line 1917, in py_eval
+    code = py_compile(code, 'eval')
+  File "C:\Users\dalem\Desktop\renpy-6.99.14.3-sdk\renpy\python.py", line 674, in py_compile
+    raise e
+SyntaxError: invalid syntax (game/workshop.rpy, line 8)
 
 Windows-8-6.2.9200
 Ren'Py 6.99.14.3.3347
 shrinemystery 1.0
-Sat May 05 20:54:37 2018
+Sun May 06 14:11:42 2018
