@@ -43,7 +43,7 @@ label lodge:
                     t "Oh, well, I left it on my other shirt. It has been a hectic day."
                     jump lodge3
                 "Do you have any suspects?":
-                    marina upset
+                    show marina upset
                     t "There is this one guy I brought here with the tour group, name is John Shady."
                     t "He’s on the bus. The guy has been complaining the whole trip."
                     t "All day he's been going on and on about how The service is terrible and how He thinks the water is *Too Cold*."
@@ -58,4 +58,3 @@ label lodge:
                     jump lodge3
                 "Thank you for your time":
                     jump pond
-0
