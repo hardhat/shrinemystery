@@ -59,6 +59,11 @@ menu:
 
 label solve:
     scene bg pond
+    d "I know who done it!"
+    t "You know who did it, you mean."
+    d "What?"
+    t "'You know who did it, not 'you know who done it'."
+    d "Oh. okay. Yes. I know who did it! the Murder was commited by-"
 
 menu:
     "Accuse Zealot John Shady":
