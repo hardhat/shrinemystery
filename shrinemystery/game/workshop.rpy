@@ -32,12 +32,12 @@ label workshop:
                     "How did you know the priest?":
                         show brother upset at topright
                         g "He’s my brother. Together we run . . . ran this place. I guess I own it now."
-                        jump workshop2
+                        jump workshop3
                     "Have you noticed anything odd last night with the group":
                         show brother upset at topright
                         g "Now that you mention it, I noticed the tour guide leave just after the Priest left after dinner. I’d ask her if I were you."
                         $ tourguide_fight = True
-                        jump workshop2
+                        jump workshop3
                     "Who do you think did it?":
                         show brother happy at topright
                         g "No idea. Could be anyone."
@@ -48,7 +48,7 @@ label workshop:
                         g "Look. He and I have butted heads for a while. This place doesn’t make money because he doesn’t expand the lodge and advertise it to tourists."
                         g "I’ve wanted to expand this into a fully finished, five-star resort built into the gorgeous landscape this area was gifted with!"
                         g "With him gone I own the deed and can finally make money off this place. "
-                        jump workshop2
+                        jump workshop3
                     "Thank you for your time":
                         show brother happy at topright
                         g "No need to thank me, You're the one solving the case."
