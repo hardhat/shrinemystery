@@ -83,9 +83,9 @@ menu:
     #    t "Because we know that wining is for losers"
 label accusezealot:
     scene bg pond
-    show zealot angry
     d "John did it! He was furious at the priest for being an imposter"
     t "I knew it!"
+    show zealot angry at topright
     s "It was not me! I may have hated the man, but not enough to kill him!"
     d "you even told me his death was justified and nobody can say where you were last night!"
     s "I was on the bus! It’s the truth!"
@@ -95,8 +95,11 @@ label accusezealot:
 
 label accusebrother:
     scene bg pond
-    show brother angry
-    g "Wrong."
+    d "The Groundskeeper did it! He wanted the dead to the land so he could expand this into a massive tourist complex!"
+    show brother angry at topright
+    g "No you git! It wasn’t me!"
+    d "Tell that to the judge! Take him away!"
+    "YOU LOSE. HE MAY HAVE DISLIKED HIS BROTHER BUT HE WOULD NEVER KILL HIM. DUE TO HIM LEAVING, THE DUCK POND SHRINE WAS CLOSED AND DUCKS COMPAINED TO DUCTECTIVE FOR YEARS TO COME. THEY BLAME YOU AND DUCKTECTIVE CLOSED DOWN"
     jump done
 
 label accusemarina:
