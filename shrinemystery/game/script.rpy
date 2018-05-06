@@ -163,7 +163,7 @@ label accusenun:
     d "Mary did it! The Priest threatened to tell the church she was in love with a mechanic and she would be sent away for doing such a thing!"
     show nun upset at right
     n "I did not! No! It wasn’t me!"
-    show zealot upset
+    show zealot upset at right
     s "Shock! The Church of the Goat allows such a thing!"
     s "This is a corrupt off shoot! The whole area should be burned to the ground!"
     s "I can’t stand this place!"
