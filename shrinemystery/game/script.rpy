@@ -7,7 +7,7 @@ define s = Character("John Shady")
 define n = Character("Sister Mary")
 # Nun
 define g = Character("Bill")
-#
+$ m = 0
 # The Priest's Name is Father Joseph Flirteen
 # The game starts here.
 

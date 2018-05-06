@@ -11,6 +11,7 @@ label workshop:
             jump workshop2
         "Have you noticed anything odd last night with the group":
             "Now that you mention it, I noticed the tour guide leave just after the Priest left after dinner. I’d ask her if I were you."
+            $ marinaTruth = 1
             jump workshop2
         "Who do you think did it?":
             ""
