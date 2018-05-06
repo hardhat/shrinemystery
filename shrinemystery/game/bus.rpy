@@ -44,7 +44,7 @@ label bus:
                 s "TERRIBLE service, horrible water, a shameful priest, and, well..."
                 "I did notice the nun leaving the monastery leave just after dinner."
                 "You should ask her where she went."
-                $ nun_fight = true # (Unlocks dialogue for Nun)
+                $ nun_fight = True # (Unlocks dialogue for Nun)
                 jump bus_loop2
             "That's all for now, thanks.":
                 jump pond
