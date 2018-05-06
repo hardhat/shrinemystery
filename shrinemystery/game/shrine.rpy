@@ -6,7 +6,7 @@ label shrine:
     #"Time to pray?"
     #n "I am always praying, even while conversing with you."
     #jump pond
-    show nun happy
+    show nun happy at topright
     if nun_fight == True:
         jump shrine_loop2
     else:
@@ -15,18 +15,18 @@ label shrine:
     label shrine_loop:
         menu:
             "How well did you know the Priest?":
-                show nun angry
+                show nun angry at topright
                 s "I've been here for about a month, but I barely knew him."
-                show nun happy
+                show nun happy at topright
                 s "He was nice I guess, not much else I can say."
                 jump shrine_loop
 
             "Have you noticed anything odd in the days leading up the murder?":
-                show nun upset
+                show nun upset at topright
                 n "There was a letter that came about a week ago..."
                 n "With a DNA test as proof, a Mrs. Amberger claims to be his daughter."
                 n "Outside of that, Bill, the Prist’s brother has been arguing a lot of late."
-                show nun angry
+                show nun angry at topright
                 n "An argument got really heated two days ago."
                 $ brother_fight = True
                 jump shrine_loop
@@ -38,22 +38,22 @@ label shrine:
         menu:
             # - (Unlocked after Zealot)
                         "How well did you know the Priest?":
-                            show nun angry
+                            show nun angry at topright
                             s "I've been here for about a month, but I barely knew him."
-                            show nun happy
+                            show nun happy at topright
                             s "He was nice I guess, not much else I can say."
                             jump shrine_loop2
                         "Have you noticed anything odd in the days leading up the murder?":
-                            show nun upset
+                            show nun upset at topright
                             n "There was a letter that came about a week ago..."
                             n "With a DNA test as proof, a Mrs. Amberger claims to be his daughter."
                             n "Outside of that, Bill, the Prist’s brother has been arguing a lot of late."
-                            show nun angry
+                            show nun angry at topright
                             n "An argument got really heated two days ago."
                             $ brother_fight = True
                             jump shrine_loop2
                         "Where were you on the night of the event?":
-                            show nun suprised
+                            show nun suprised at topright
                             n "Oh! I was in town."
                             d "Town?"
                             n "Yes. I was. I wasn’t anywhere near the shrine."
