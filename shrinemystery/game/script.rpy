@@ -87,35 +87,23 @@ menu:
     #    t "Because we know that wining is for losers"
 label accusezealot:
     scene bg pond
-    show ducktective at left
     d "John did it! He was furious at the priest for being an imposter"
-    hide ducktective
     t "I knew it!"
     show zealot angry at topright
     s "It was not me! I may have hated the man, but not enough to kill him!"
-    show ducktective at left
     d "you even told me his death was justified and nobody can say where you were last night!"
-    hide ducktective
     s "I was on the bus! It’s the truth!"
-    show ducktective at left
     d "Well, my job here is done, take him away!"
-    hide ducltective
     "YOU LOSE. JOHN, THE GUY NOBODY LIKED WAS SENT TO PRISON FOR A FLASE MURDER, THOUGH NOBODY REALLY MINDS. HE WAS A JERK."
     jump done
 
 label accusebrother:
     scene bg pond
-    show ducktective at left
     d "The Groundskeeper did it! He wanted the dead to the land so he could expand this into a massive tourist complex!"
-    hide ducktective
     show brother angry at topright
     g "No you git! It wasn’t me!"
-    show ducktective at left
     d "Tell that to the judge! Take him away!"
-    hide ducktective
-    "YOU LOSE. HE MAY HAVE DISLIKED HIS BROTHER BUT HE WOULD NEVER KILL HIM."
-    "DUE TO HIM LEAVING, THE DUCK POND SHRINE WAS CLOSED AND DUCKS COMPAINED TO DUCTECTIVE FOR YEARS TO COME."
-    "THEY BLAME YOU AND BECAUSE OF THAT THE DUCKTECTIVE CLOSED DOWN"
+    "YOU LOSE. HE MAY HAVE DISLIKED HIS BROTHER BUT HE WOULD NEVER KILL HIM. DUE TO HIM LEAVING, THE DUCK POND SHRINE WAS CLOSED AND DUCKS COMPAINED TO DUCTECTIVE FOR YEARS TO COME. THEY BLAME YOU AND DUCKTECTIVE CLOSED DOWN"
     jump done
 
 label accusemarina:
@@ -127,10 +115,8 @@ label accusemarina:
     hide marina upset at right
     show nun surprised at right
     n "Wait! She’s Mrs. Flirteen! She’s the daughter of the priest!"
-    show ducktective at left
     d "What?"
-    hide ducktective
-    n "A few days ago there was paper about someone being the Priest’s daughter, a Mrs. Ambergere!"
+    n "A few days ago there was paper about someone being the Priest’s daughter, a Mrs. HHHHH!"
     n "She wanted to meet him, but he wrote back for her to stay away! If the Priest really had a daughter, he would be exiled from the church! His life would be over!"
     hide nun surprised
     show zealot angry at right
@@ -138,9 +124,7 @@ label accusemarina:
     hide zealot angry
     show marina bloody at right
     t "Ha! You found out! He disowned me the moment he met me as I follow the Church of the Duck, not the Goat! I killed him!"
-    show ducktective at left
     d "Well, my job here is done. Take her away!"
-    hide ducktective
     "DUCKTECTIVE SOLVED THE CASE!"
     "(Well, Mary solved the case, but DUCTECTIVE TAKES THE CREDIT!)"
     hide marina bloody at right
@@ -179,22 +163,17 @@ label accusenun:
     scene bg pond
     show ducktective at left
     d "Mary did it! The Priest threatened to tell the church she was in love with a mechanic and she would be sent away for doing such a thing!"
-    hide ducktective
     show nun upset at right
     n "I did not! No! It wasn’t me!"
     show zealot upset
     s "Shock! The Church of the Goat allows such a thing!"
     s "This is a corrupt off shoot! The whole area should be burned to the ground!"
     s "I can’t stand this place!"
-    show ducktective at left
     d "Well, my job here is done. Take her away!"
-    hide ducktective
     hide zealot
     show boyfriend
     b "Mary! I’m here to take you away"
-    show ducktective at left
     d "Wait, boyfriend, you exist! Do you have evidence she was with you last night?"
-    hide ducktective
     b "Yes. Here are receipts from the arcade. We were playing late last night"
 
     "YOU LOSE. MARY WAS INNOCENT."
