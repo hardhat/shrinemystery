@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("shrinemystery")
+define config.name = _("Shrine Mystery")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -29,7 +29,13 @@ define config.version = "1.0"
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
-define gui.about = _p("Designed for ToJam 13")
+define gui.about = _p("""A TeamSushi Production.
+
+Team: Dale Wick, Josh Finnigan, Jeffrey Wick, Nicholas Andreas.
+
+Floaters: Gary Martin, Fergui Pascual
+
+Copyright 2018 Designed for ToJam 13""")
 
 
 ## A short name for the game used for executables and directories in the built
