@@ -61,10 +61,12 @@ menu:
 
 label solve:
     scene bg pond
+    show ducktective at left
     d "I know who done it!"
+    show marina neutral at right
     t "You know who did it, you mean."
     d "What?"
-    t "'You know who did it, not 'you know who done it'."
+    t "‘You know who did it’, not ‘You know who done it’."
     d "Oh. okay. Yes. I know who did it! the Murder was commited by-"
 
 menu:
@@ -137,14 +139,7 @@ label accusemarina:
 label accusenun:
     scene bg pond
     show ducktective at left
-    d "I know who done it!"
-    show marina neutral at right
-    t "You know who did it, you mean."
-    d "What?"
-    t "‘You know who did it’, not ‘You know who done it’."
-    d "Oh. Okay. Yes. I know who did it! The murder was committed by-"
     d "Mary did it! The Priest threatened to tell the church she was in love with a mechanic and she would be sent away for doing such a thing!"
-    hide marina
     show nun upset at right
     n "I did not! No! It wasn’t me!"
     show zealot upset
