@@ -87,7 +87,7 @@ label accusezealot:
     scene bg pond
     d "John did it! He was furious at the priest for being an imposter"
     t "I knew it!"
-    show zealot angry at topright
+    show zealot angry at right
     s "It was not me! I may have hated the man, but not enough to kill him!"
     d "you even told me his death was justified and nobody can say where you were last night!"
     s "I was on the bus! It’s the truth!"
@@ -98,7 +98,7 @@ label accusezealot:
 label accusebrother:
     scene bg pond
     d "The Groundskeeper did it! He wanted the dead to the land so he could expand this into a massive tourist complex!"
-    show brother angry at topright
+    show brother angry at right
     g "No you git! It wasn’t me!"
     d "Tell that to the judge! Take him away!"
     "YOU LOSE. HE MAY HAVE DISLIKED HIS BROTHER BUT HE WOULD NEVER KILL HIM. DUE TO HIM LEAVING, THE DUCK POND SHRINE WAS CLOSED AND DUCKS COMPAINED TO DUCTECTIVE FOR YEARS TO COME. THEY BLAME YOU AND DUCKTECTIVE CLOSED DOWN"
@@ -106,10 +106,20 @@ label accusebrother:
 
 label accusemarina:
     scene bg pond
-    show marina bloody
-    t "Now you die."
-    jump done
-
+    d "THE TOUR GUIDE DID IT! SHE OWED MONEY TO JOHN FOR THIS BEING A FALSE CHURCH OF THE GOAT!"
+    show marina upset
+    t  "Seriously? It’s like $10. I phoned you here anyway. It wasn’t me."
+    n "Wait! She’s Mrs. Flirteen! She’s the daughter of the priest!"
+    d "What?"
+    n "A few days ago there was paper about someone being the Priest’s daughter, a Mrs. HHHHH!"
+    n "She wanted to meet him, but he wrote back for her to stay away! If the Priest really had a daughter, he would be exiled from the church! His life would be over!"
+    s "What an unholy land this is! I knew he was horrible from the moment I met him!"
+    show tour guide bloody
+    t "Ha! You found out! He disowned me the moment he met me as I follow the Church of the Duck, not the Goat! I killed him!"
+    d "Well, my job here is done. Take her away!"
+    "DUCKTECTIVE SOLVED THE CASE!"
+    "(Well, Mary solved the case, but DUCTECTIVE TAKES THE CREDIT!)"
+    
 label accusenun:
     scene bg pond
     show ducktective at left
