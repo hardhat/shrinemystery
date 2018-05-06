@@ -148,6 +148,7 @@ label accusenun:
     s "I can’t stand this place!"
     d "Well, my job here is done. Take her away!"
     hide zealot
+    show boyfriend
     b "Mary! I’m here to take you away"
     d "Wait, boyfriend, you exist! Do you have evidence she was with you last night?"
     b "Yes. Here are receipts from the arcade. We were playing late last night"
