@@ -157,6 +157,8 @@ label accusemarina:
     hide zealot estatic at right
     show marina winning at right
     "YOU WERE TURNED INTO A DELICIOUS MEAL, 'CAUSE WINNING IS FOR LOSERS!"
+    jump done
+
 label accusenun:
     scene bg pond
     show ducktective at left
