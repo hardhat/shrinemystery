@@ -7,6 +7,8 @@ define s = Character("John Shady")
 define n = Character("Sister Mary")
 # Nun
 define g = Character("Bill")
+# Boyfriend
+define b = Character("Mary's Boyfriend Brad")
 $ m = 0
 
 # state
@@ -110,8 +112,30 @@ label accusemarina:
 
 label accusenun:
     scene bg pond
-    show nun angry
-    n "Wrong."
+    show ducktective at left
+    d "I know who done it!"
+    show marina neutral at right
+    t "You know who did it, you mean."
+    d "What?"
+    t "‘You know who did it’, not ‘You know who done it’."
+    d "Oh. Okay. Yes. I know who did it! The murder was committed by-"
+    d "Mary did it! The Priest threatened to tell the church she was in love with a mechanic and she would be sent away for doing such a thing!"
+    hide marina
+    show nun upset at right
+    n "I did not! No! It wasn’t me!"
+    show zealot upset
+    s "Shock! The Church of the Goat allows such a thing!"
+    s "This is a corrupt off shoot! The whole area should be burned to the ground!"
+    s "I can’t stand this place!"
+    d "Well, my job here is done. Take her away!"
+    hide zealot
+    b "Mary! I’m here to take you away"
+    d "Wait, boyfriend, you exist! Do you have evidence she was with you last night?"
+    b "Yes. Here are receipts from the arcade. We were playing late last night"
+
+    "YOU LOSE. MARY WAS INNOCENT."
+    "HER PRECIOUS RELATIONSHIP WAS RUINED AND EVERYONE BLAMES YOU FOR SCREWING UP."
+    "SHE SUES YOU WHICH ENDS UP COSTING DUCTECTIVE A MASSIVE BILL."
     jump done
 
 label done:
