@@ -107,19 +107,33 @@ label accusebrother:
 label accusemarina:
     scene bg pond
     d "THE TOUR GUIDE DID IT! SHE OWED MONEY TO JOHN FOR THIS BEING A FALSE CHURCH OF THE GOAT!"
-    show marina upset
+    show marina upset at right
     t  "Seriously? It’s like $10. I phoned you here anyway. It wasn’t me."
+    show nun suprised at right
     n "Wait! She’s Mrs. Flirteen! She’s the daughter of the priest!"
     d "What?"
     n "A few days ago there was paper about someone being the Priest’s daughter, a Mrs. HHHHH!"
     n "She wanted to meet him, but he wrote back for her to stay away! If the Priest really had a daughter, he would be exiled from the church! His life would be over!"
+    show zello angry at right
     s "What an unholy land this is! I knew he was horrible from the moment I met him!"
-    show tour guide bloody
+    show tour guide bloody at right
     t "Ha! You found out! He disowned me the moment he met me as I follow the Church of the Duck, not the Goat! I killed him!"
     d "Well, my job here is done. Take her away!"
     "DUCKTECTIVE SOLVED THE CASE!"
     "(Well, Mary solved the case, but DUCTECTIVE TAKES THE CREDIT!)"
-    
+    s "WAIT! The priest was horrible and I hold no grudges against you Mrs. Flirteen. And Mary, if you take over this site and follow the True Goat Religion, I will report nothing."
+    s "Groundskeeper, I would fund the expansions for this site. If this is reported the church will be shut down. "
+    t "As long as nobody is unhappy with the murder-"
+    g "You’d fund it? Wow! Yeah, I’m on board!"
+    n "Eh, I don’t mind"
+    t "Then things are good! Nobody goes to jail."
+    d "But you murdered the Priest! I will be reporting this to the police once I leave here!"
+    g "Mrs. Flirteen, the Duck Religion teaches you the many ways to cook a good duck, no?"
+    t "I do! I know hundreds of ways to turn a duck into an amazing meal!"
+    s "You know, a duck would be nice now."
+    d "Oh dear!"
+    show marina winning
+    "YOU WERE TURNED INTO A DELICIOUS MEAL, 'CAUSE WINNING IS FOR LOSERS!"
 label accusenun:
     scene bg pond
     show ducktective at left
