@@ -31,15 +31,16 @@ show ducktective
     # images directory to show it.
 
 scene bg pond
-d "Let me see some ID from all of you"
-scene bg id
-"(Press the mousewheel button to hide the text box)"
+d "Time to review the witness testamony"
+#d "Let me see some ID from all of you"
+#scene bg id
+#"(Press the mousewheel button to hide the text box)"
 scene bg pond
 d "Alright, you can go free, but just let me investigate until I talk to you."
 
 label pond:
     scene bg pond
-    "Let me see some ID from all of you"
+    "Let me talk to each of the suspects"
     # scene bg id
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -54,13 +55,51 @@ menu:
     "Visit shrine":
         jump shrine
     "Solve crime":
-        jump death
+        jump solve
 
-label death:
+label solve:
+    scene bg pond
+
+menu:
+    "Accuse Zealot John Shady":
+        jump accusezealot
+    "Accuse Groundskeeper Bill Flirteen":
+        jump accusebrother
+    "Accuse Tour Guide Marina Amburgere":
+        jump accusemarina
+    "Accuse Sister Maria":
+        jump accusenun
+    "Investigate More":
+        jump pond
+
+
+    #show marina bloody
+    #    t "Time to die."
+    #    t "Because we know that wining is for losers"
+label accusezealot:
+    scene bg pond
+    show zealot angry
+    s "Wrong."
+    jump done
+
+label accusebrother:
+    scene bg pond
+    show brother angry
+    g "Wrong."
+    jump done
+
+label accusemarina:
     scene bg pond
     show marina bloody
-    t "Time to die."
-    t "Because we know that wining is for losers"
+    t "Now you die."
+    jump done
 
+label accusenun:
+    scene bg pond
+    show nun angry
+    n "Wrong."
+    jump done
+
+label done:
 #ends the game
 return
