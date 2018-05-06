@@ -8,6 +8,13 @@ define n = Character("Sister Mary")
 # Nun
 define g = Character("Bill")
 $ m = 0
+
+# state
+define zealot_fight = False
+define nun_fight = False
+define brother_fight = False
+define tourguide_fight = False
+#
 # The Priest's Name is Father Joseph Flirteen
 # The game starts here.
 
