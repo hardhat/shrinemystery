@@ -31,7 +31,7 @@ define config.version = "1.0"
 
 define gui.about = _p("""A TeamSushi Production.
 
-Team: Dale Wick, Josh Finnigan, Jeffrey Wick, Nicholas Andreas.
+Team: Dale Wick, Josh "Finnigan" Finnigan, Jeffrey Wick, Nicholas Andreae.
 
 Floaters: Gary Martin, Fergui Pascual
 
