@@ -41,6 +41,7 @@ label workshop:
                     "Who do you think did it?":
                         show brother happy at topright
                         g "No idea. Could be anyone."
+                        jump workshop3
                     "(Secret) What were you arguing with your brother about?":
                         g "What argument?"
                         "The Nun said you were arguing two days ago."
